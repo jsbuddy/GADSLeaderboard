@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#1758C8</color>
-    <color name="colorPrimaryDark">#00182C</color>
+    <color name="colorPrimaryDark">#090909</color>
     <color name="colorAccent">#FF5252</color>
-    <color name="colorCard">#131820</color>
+    <color name="colorCard">#0E0E0E</color>
+    <color name="windowBackground">#000000</color>
+
+<!--    <color name="colorPrimary">#1758C8</color>-->
+<!--    <color name="colorPrimaryDark">#040A10</color>-->
+<!--    <color name="colorAccent">#FF5252</color>-->
+<!--    <color name="colorCard">#131820</color>-->
+<!--    <color name="windowBackground">#040A10</color>-->
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="success">#2ACC7D</color>
+    <color name="error">#CC2A2A</color>
 </resources>
+
+    <!--        <color name="colorPrimaryDark">#00182C</color>-->
+    <!--        <color name="windowBackground">#0A0D13</color>-->
