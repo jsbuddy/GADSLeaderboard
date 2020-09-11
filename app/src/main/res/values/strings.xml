@@ -37,6 +37,7 @@
     <string name="content_description_error_icon">Error icon</string>
     <string name="content_description_success_icon">Success icon</string>
     <string name="content_description_hero_banner">Hero banner</string>
+    <string name="content_description_logo_banner">Logo banner</string>
 
     <!-- Other -->
     <string name="submission_error">Could not submit</string>

@@ -41,7 +41,7 @@ class SubmitFragment : Fragment() {
     }
 
     private fun initialize() {
-        binding.root.setOnFocusChangeListener { view, b ->
+        binding.layout.setOnFocusChangeListener { view, b ->
             if (b) view.hideKeyboard()
         }
 
