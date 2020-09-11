@@ -16,5 +16,6 @@ Mobile design of the GADS 2020 leaderboard that displays top 20 learners in the 
     <td><image src="screens/dialog-confirm.jpg" width="200px"/></td>
     <td><image src="screens/dialog-success.jpg" width="200px"/></td>
     <td><image src="screens/dialog-error.jpg" width="200px"/></td>
+    <td><image src="screens/preferences.jpg" width="200px"/></td>
   </tr>
 </table>
