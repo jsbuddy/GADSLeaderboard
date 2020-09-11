@@ -6,10 +6,13 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="cardBackgroundColor">@color/colorPrimaryDark</item>
         <item name="materialButtonStyle">@style/AppTheme.Button</item>
-        <item name="colorSurface">@color/colorPrimaryDark</item>
         <item name="android:windowBackground">@color/windowBackground</item>
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox
         </item>
+
+        <item name="android:textColor">@color/textColor</item>
+        <!--        <item name="colorOnPrimary">@color/colorPrimaryDark</item>-->
+        <!--        <item name="colorOnSurface">@color/colorPrimaryDark</item>-->
         <item name="fontFamily">@font/varela_round</item>
     </style>
 

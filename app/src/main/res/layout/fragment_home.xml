@@ -50,7 +50,7 @@
             app:tabIndicatorColor="@color/colorAccent"
             app:tabIndicatorFullWidth="false"
             app:tabMode="scrollable"
-            app:tabSelectedTextColor="@color/colorOnPrimary"
+            app:tabSelectedTextColor="?attr/colorOnSurface"
             app:tabTextColor="@color/colorOnPrimaryDisabled" />
     </com.google.android.material.appbar.AppBarLayout>
 

@@ -7,6 +7,7 @@
     <color name="windowBackground">#F9F9F9</color>
     <color name="colorOnPrimary">#FFFFFF</color>
     <color name="colorOnPrimaryDisabled">#B5B5B5</color>
+    <color name="textColor">#444</color>
 
     <color name="white">#FFFFFF</color>
 

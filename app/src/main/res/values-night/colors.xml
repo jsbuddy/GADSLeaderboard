@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF5252</color>
     <color name="colorCard">#0E0E0E</color>
     <color name="windowBackground">#000000</color>
+    <color name="textColor">#EEEEEE</color>
 
 
     <color name="white">#FFFFFF</color>
