@@ -40,6 +40,14 @@ class HomeFragment : Fragment() {
                     findNavController().navigate(R.id.action_homeFragment_to_submitFragment)
                     true
                 }
+                R.id.action_settings -> {
+                    findNavController().navigate(R.id.action_homeFragment_to_settingsFragment)
+                    true
+                }
+                R.id.action_quit -> {
+                    requireActivity().finishAndRemoveTask()
+                    true
+                }
                 else -> false
             }
         }
@@ -50,6 +58,11 @@ class HomeFragment : Fragment() {
         binding.viewPager.adapter = sectionsPagerAdapter
         val tabs = binding.tabs
         tabs.setupWithViewPager(binding.viewPager)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        requireActivity().setTheme(R.style.AppTheme)
     }
 
     override fun onDestroyView() {

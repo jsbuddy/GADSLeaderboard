@@ -10,7 +10,7 @@ import com.example.gadsleaderboard.ui.skilliq.SkillIQFragment
 
 private val TAB_TITLES = arrayOf(
     R.string.tab_text_learning,
-    R.string.tab_text_skilliq
+    R.string.tab_text_skill_iq
 )
 
 class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) :

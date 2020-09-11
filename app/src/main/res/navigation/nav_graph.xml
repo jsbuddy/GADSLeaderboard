@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.gadsleaderboard.ui.home.HomeFragment"
-        android:label="HomeFragment" >
+        android:label="HomeFragment">
         <action
             android:id="@+id/action_homeFragment_to_submitFragment"
             app:destination="@id/submitFragment"
@@ -16,10 +16,17 @@
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/submitFragment"
         android:name="com.example.gadsleaderboard.ui.submit.SubmitFragment"
         android:label="fragment_submit"
         tools:layout="@layout/fragment_submit" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.gadsleaderboard.ui.settings.SettingsFragment"
+        android:label="SettingsFragment" />
 </navigation>

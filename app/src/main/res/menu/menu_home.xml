@@ -5,4 +5,10 @@
         android:id="@+id/action_submit"
         android:title="@string/menu_submit"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/menu_settings" />
+    <item
+        android:id="@+id/action_quit"
+        android:title="@string/menu_quit" />
 </menu>

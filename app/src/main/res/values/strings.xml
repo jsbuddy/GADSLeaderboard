@@ -1,28 +1,44 @@
 <resources>
     <string name="app_name">GADS Leaderboard</string>
+
+    <!-- Tabs -->
     <string name="tab_text_learning">Learning Leaders</string>
-    <string name="tab_text_skilliq">Skill IQ Leaders</string>
+    <string name="tab_text_skill_iq">Skill IQ Leaders</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <!-- EditText Hints -->
     <string name="hint_first_name">First name</string>
     <string name="hint_last_name">Last name</string>
     <string name="hint_email_address">Email address</string>
     <string name="hint_github_link">Link to Github project</string>
 
+    <!-- Buttons -->
     <string name="btn_submit">Submit</string>
 
+    <!-- Dialog -->
     <string name="confirmation_title">Confirm</string>
     <string name="confirmation_message">Are you sure you want to submit?</string>
     <string name="no">No</string>
     <string name="yes">Yes</string>
 
+    <!-- Menu -->
     <string name="menu_submit">Submit</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_quit">Quit</string>
 
+    <!-- Preference -->
+    <string name="pref_group_visuals">Visuals</string>
+    <string name="pref_group_me">Me</string>
+
+    <string name="pref_theme_key">theme</string>
+    <string name="pref_theme_title">Theme</string>
+    <string name="pref_theme_default_value">1</string>
+
+    <!-- ImageView Content Description -->
     <string name="content_description_error_icon">Error icon</string>
     <string name="content_description_success_icon">Success icon</string>
     <string name="content_description_hero_banner">Hero banner</string>
 
+    <!-- Other -->
     <string name="submission_error">Could not submit</string>
     <string name="submission_success">Submitted</string>
 </resources>
