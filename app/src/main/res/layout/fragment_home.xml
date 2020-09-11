@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimaryDark"
-            app:expandedTitleMargin="15dp"
+            app:expandedTitleMargin="10dp"
             app:expandedTitleMarginBottom="50dp"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:title="Leader Board">
@@ -34,14 +34,18 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
+                android:layout_marginStart="0dp"
                 android:layout_marginTop="10dp"
-                app:layout_collapseMode="pin" />
+                android:paddingHorizontal="0dp"
+                app:layout_collapseMode="pin"
+                app:titleMarginStart="0dp" />
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingHorizontal="2dp"
             app:layout_scrollFlags="scroll|enterAlways"
             app:tabIndicatorColor="@color/colorAccent"
             app:tabIndicatorFullWidth="false"
