@@ -38,7 +38,9 @@ class LearningFragment : Fragment() {
                 is Resource.Success -> {
                     binding.loading.visibility = View.INVISIBLE
                     it.data?.let { response ->
-                        leadersAdapter.differ.submitList(response)
+                        leadersAdapter.differ.submitList(
+                            response.sortedWith(compareBy { l -> l.hours }).reversed()
+                        )
                         binding.rvList.visibility = View.VISIBLE
                     }
                 }
