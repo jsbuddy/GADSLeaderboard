@@ -11,6 +11,7 @@
         </item>
         <item name="android:textColor">@color/textColor</item>
         <item name="fontFamily">@font/varela_round</item>
+        <item name="preferenceTheme">@style/PrefsTheme</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -30,5 +31,11 @@
     <style name="AppTheme.Button" parent="Widget.MaterialComponents.Button">
         <item name="backgroundTint">@drawable/background_button</item>
         <item name="android:textColor">@drawable/color_button_text</item>
+    </style>
+
+    <style name="PrefsTheme" parent="PreferenceThemeOverlay.v14.Material">
+        <item name="android:layout">@layout/fragment_settings</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/activity_horizontal_margin</item>
     </style>
 </resources>
