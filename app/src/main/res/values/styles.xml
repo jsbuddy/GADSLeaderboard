@@ -10,7 +10,6 @@
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox
         </item>
         <item name="android:textColor">@color/textColor</item>
-        <item name="fontFamily">@font/varela_round</item>
         <item name="preferenceTheme">@style/PrefsTheme</item>
     </style>
 
