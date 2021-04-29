@@ -16,7 +16,7 @@ class SettingsFragment : PreferenceFragmentCompat(), Preference.OnPreferenceChan
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         val root = super.onCreateView(inflater, container, savedInstanceState)!!
         setupToolbar(root)
         return root

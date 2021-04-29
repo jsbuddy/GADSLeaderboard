@@ -24,7 +24,7 @@ class SubmitFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentSubmitBinding.inflate(inflater, container, false)
         model = (activity as MainActivity).model
 
